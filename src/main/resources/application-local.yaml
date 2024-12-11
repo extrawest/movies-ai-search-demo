@@ -1,0 +1,51 @@
+server:
+  port: 8208
+  tomcat:
+    connection-timeout: 7200000
+  forward-headers-strategy: framework
+  servlet:
+      context-path: /api
+
+#Pass API key as environment variable, e.g. -DNEO4J_URI=your-uri, -DNEO4J_PASSWORD=your-password
+spring:
+  neo4j:
+    uri: ${NEO4J_URI}
+    authentication:
+      username: neo4j
+      password: ${NEO4J_PASSWORD}
+  mvc:
+    async:
+      request-timeout: 7200000
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  application:
+    name: spring-ai-neo4j
+
+#Pass API key as environment variable, e.g. -DTOGETHER_AI_API_KEY=your-api-key
+ai:
+  api-key: ${TOGETHER_AI_API_KEY}
+  base-url: https://api.together.xyz/v1
+  chat-model-name: meta-llama/Meta-Llama-3.1-405B-Instruct-Lite-Pro-lora
+#  chat-model-name: meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo
+
+
+#Swagger
+springdoc:
+  api-docs:
+    path: /docs
+
+#Logging levels
+logging:
+  level:
+    root: INFO
+    org.springframework.security: INFO
+    org.springframework.security.authentication: INFO
+    org.springframework.boot: INFO
+    org.springframework.ws: WARN
+    org.springframework.web.socket.config.WebSocketMessageBrokerStats: WARN
+    org.springframework.data.neo4j: DEBUG
+    org.neo4j.driver: DEBUG
+    org.springframework.beans.factory.support: INFO
+    org.springframework.data.convert: INFO
+    org.springframework.context: INFO
+    com.neo4j.ai: INFO
