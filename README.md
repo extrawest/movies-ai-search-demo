@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/f573f19c-702b-470f-97b6-82f5490a2eaa
 MATCH p=()-[:IN_GENRE]->() RETURN p LIMIT 25;
 ```
 Output:
-![visualisation (2)](![visualisation](https://github.com/user-attachments/assets/abc7fc5a-5372-4716-8be9-ebf1dbd4c1e7)
+![visualisation (2)](![visualisation](![visualisation(2)](https://github.com/user-attachments/assets/877fd8c3-f490-4398-aff7-f2639e0dbd64)
 
 
 ## Key Features
