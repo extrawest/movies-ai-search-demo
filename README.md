@@ -11,6 +11,11 @@ An AI-powered movie database application built with Java 21, Spring Boot 3.3.3, 
 
 
 
+https://github.com/user-attachments/assets/f573f19c-702b-470f-97b6-82f5490a2eaa
+
+
+
+
 ## Key Features
 - **Natural Language Query Support**: Leverage LangChain4j to allow users to ask movie-related questions in plain language, translating them into Cypher queries for Neo4j.
 - **AI-Powered Recommendations**: Provide personalized movie, actor, and genre recommendations based on user queries, search history, and preferences.
