@@ -10,16 +10,15 @@ An AI-powered movie database application built with Java 21, Spring Boot 3.3.3, 
 
 
 
-
 https://github.com/user-attachments/assets/f573f19c-702b-470f-97b6-82f5490a2eaa
 
 
-1. Query:
+1. Query example:
 ```bash
 MATCH p=()-[:IN_GENRE]->() RETURN p LIMIT 25;
 ```
 Output:
-![visualisation (2)](![visualisation(1)](https://github.com/user-attachments/assets/23cd7951-9c49-4fb7-9597-9bba39fb19f1)
+![visualisation (2)](https://github.com/user-attachments/assets/23cd7951-9c49-4fb7-9597-9bba39fb19f1)
 
 
 ## Key Features
