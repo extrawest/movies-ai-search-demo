@@ -1,8 +1,10 @@
-package com.neo4j.ai.services.agents;
+package com.neo4j.ai.services;
 
 import dev.langchain4j.service.SystemMessage;
 import dev.langchain4j.service.UserMessage;
+import dev.langchain4j.service.spring.AiService;
 
+@AiService
 public interface QuestionAgent {
 
     @SystemMessage("""

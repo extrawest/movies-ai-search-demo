@@ -1,6 +1,6 @@
 package com.neo4j.ai.configurations;
 
-import com.neo4j.ai.services.agents.QuestionAgent;
+import com.neo4j.ai.services.QuestionAgent;
 import com.neo4j.ai.utils.PromptUtil;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.model.chat.ChatLanguageModel;

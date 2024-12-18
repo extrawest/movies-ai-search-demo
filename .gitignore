@@ -3,6 +3,14 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# The following files are automatically generated/updated
+node_modules/
+frontend/generated/
+.npmrc
+vite.generated.ts
+
+src/main/frontend/generated/
+
 ### IntelliJ IDEA ###
 .idea/*
 .idea/modules.xml

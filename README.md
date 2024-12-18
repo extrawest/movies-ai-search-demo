@@ -42,8 +42,7 @@ Output:
     - export TOGETHER_AI_API_KEY=your_api_key;
     - export NEO4J_URI=your_neo4j_uri;
     - export NEO4J_PASSWORD=your_neo4j_password;
-2. Run the command: mvn exec:java -Dspring.profiles.active=local
-3. Open the following link in your browser: http://localhost:8208/api/swagger-ui/index.html#/
+2. Run the app by running `Application.java` in your IDE or `mvn` in the command line.
 
 ## Contributing
 
