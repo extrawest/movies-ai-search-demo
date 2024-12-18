@@ -45,6 +45,10 @@ Output:
 2. Run the command: mvn exec:java -Dspring.profiles.active=local
 3. Open the following link in your browser: http://localhost:8208/api/swagger-ui/index.html#/
 
+## Branches
+1. main
+2. vaadin-integration
+
 ## Contributing
 
 Feel free to open issues or submit pull requests to improve the project. Contributions are welcome!
